@@ -1,0 +1,64 @@
+.navbar{
+    padding: 0.2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22rem;
+    border-bottom: 1px solid rgb(167, 165, 165);
+    margin-bottom: 0.5rem;
+}
+
+.logo{
+    width: 5rem;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.logOutButton{
+    background-color: #16AEE5;
+    width: 6rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 8px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #16AEE5;
+
+}
+
+.logOutButton:hover{
+    background-color: white;
+    color: #16AEE5;
+    scale: 1.05;
+    transition: 0.5s; 
+}
+
+.searchSection{
+    width: 20rem;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border-radius: 5px;
+    padding: 0.5rem;
+    border: 1px solid rgb(167, 165, 165);
+}
+.searchInput{
+    width: 92%;
+    height: 100%;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+}
+.searchIcon{
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+}

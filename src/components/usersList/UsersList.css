@@ -1,0 +1,41 @@
+.allUsersContent {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .tips-number {
+    display: flex;
+    justify-content: space-around;
+    gap: 65%;
+    align-items: flex-start;
+    flex-direction: row;
+    border: 1px solid rgb(207, 207, 207); 
+    border-left: transparent;
+    border-right: transparent;
+    border-top: transparent;
+    padding: 10px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+     font-size: 14px;
+  }
+  
+  .optionsUsers {
+    background-color: #f2f2f2; 
+    border-top: 1px solid #ddd ;
+  }
+  
+  .tipsAll {
+    margin: 0;
+  }
+  
+  
